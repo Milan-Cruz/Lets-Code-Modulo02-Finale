@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand">
+                <img src="/calculate_black_24dp.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Calculadora
+              </a>
+            </div>
+          </nav>
+    </header>
+    <div class="row caixa container">
+        <div class="col-6 row dispositivo">
+            <div class="displayLCD">
+                <div data-conteudo-anterior class="col-12 conteudo-anterior text-end"></div>
+                <div data-conteudo-atual class="col-12 conteudo-atual text-end"></div>
+            </div>
+            <button data-operador class="botaozinho col-3">%</button>
+            <button data-raiz-quad class="botaozinho col-3">²√</button>
+            <button data-limpar class="botaozinho col-6">C</button>
+            <button data-operador class="botaozinho col-3">^</button>
+            <button data-seno class="botaozinho col-3">sin</button>
+            <button data-cosseno class="botaozinho col-3">cos</button>
+            <button data-deletar class="botaozinho col-3">⌫</button>
+            <button data-operador class="botaozinho col-3">÷</button>
+            <button data-numero class="botaozinho col-3">1</button>
+            <button data-numero class="botaozinho col-3">2</button>
+            <button data-numero class="botaozinho col-3">3</button>
+            <button data-operador class="botaozinho col-3">×</button>
+            <button data-numero class="botaozinho col-3">4</button>
+            <button data-numero class="botaozinho col-3">5</button>
+            <button data-numero class="botaozinho col-3">6</button>
+            <button data-operador class="botaozinho col-3">+</button>
+            <button data-numero class="botaozinho col-3">7</button>
+            <button data-numero class="botaozinho col-3">8</button>
+            <button data-numero class="botaozinho col-3">9</button>
+            <button data-operador class="botaozinho col-3">-</button>
+            <button data-numero class="botaozinho col-3">.</button>
+            <button data-numero class="botaozinho col-3">0</button>
+            <button data-pi class="botaozinho col-3">π</button>
+            <button data-historico class="botaozinho col-3 hist-botao-style">Histórico</button>
+            <button data-hist-reset class="botaozinho col-3 hist-botao-style">H. reset</button>
+            <button data-igual class="botaozinho col-6">=</button>
+        </div>
+
+        <div data-esconder class="row col-6 historico text-center hist-conteudo">
+            <h3 class="hist-titulo">Histórico</h3>
+            <div data-h1></div>
+            <div data-h2></div>
+            <div data-h3></div>
+            <div data-h4></div>
+            <div data-h5></div>
+            <div data-h6></div>
+            <div data-h7></div>
+            <div data-h8></div>
+            <div data-h9></div>
+            <div data-h10></div>
+            <div data-h11></div>
+            <div data-h12></div>
+            <div data-h13></div>
+            <div data-h14></div>
+            <div data-h15></div>
+        </div>
+
+    </div>
+
+    <footer class="bg light text-center text-lg-start fixed-bottom">
+        <div class="texto-footer text-center p-0">©2022 Milansoft. Todos os direitos reservados.</div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

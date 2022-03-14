@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #8ECAE6;
+}
+
+.caixa {
+    position: relative;
+    top: 110px;
+    width: 648px;
+    margin: auto;
+}
+
+.dispositivo {
+    min-height: 350px;
+    width: 300px;
+    margin: auto;
+    padding: 0;
+}
+
+.displayLCD {
+    padding: 8px;
+    min-height: 85px;
+    background-color: rgba(2,48,71,0.8);
+    color: white;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.conteudo-anterior {
+    color:rgba(253, 183, 3, .80);
+    font-size: 1.2rem;
+}
+
+.conteudo-atual {
+    color:rgb(255, 255, 255);
+    font-size: 1.6rem;
+}
+
+
+.botaozinho {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.botaozinho:hover {
+    color: white;
+    background-color: rgba(251, 133, 0, 0.85);
+}
+
+.historico {
+    background-color: rgba(2,48,71,0.8);
+    color: white;
+    min-height: 365px;
+    width: 300px;
+    margin: auto;
+}
+.hist-botao-style {
+    font-size: smaller;
+}
+
+.hist-titulo {
+    font-size: medium;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.hist-conteudo div {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.texto-footer {
+    font-size:x-small;
+    font-weight:lighter;
+    background-color: rgb(142, 202, 230);
+    color: rgb(255,255,255);
+    text-shadow: 1px 1px 2px rgb(95, 95, 95);
+}
